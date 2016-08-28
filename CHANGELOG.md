@@ -1,5 +1,26 @@
 # Python Buildpack Changelog
 
+## v82 (2016-08-22)
+
+Update to library detection mechnisms (pip-pop).
+
+- Updated setuptools to v25.5.0
+
+## v81 (2016-06-28)
+
+Updated default Python to 2.7.11.
+
+- Updated setuptools to v8.1.2.
+- Updated pip to v23.1.0.
+
+## v80 (2016-04-05)
+
+Improved pip-pop compatibility with latest pip releases.
+
+## v79 (2016-03-22)
+
+Compatibility improvements with heroku-apt-buildpack.
+
 ## v78 (2016-03-18)
 
 Added automatic configuration of Gunicorn's `FORWARDED_ALLOW_IPS` setting.
